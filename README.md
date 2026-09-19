@@ -1,1 +1,0 @@
-# SQL_Interview_Questions
