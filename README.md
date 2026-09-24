@@ -1,7 +1,9 @@
 SQL INTERVIEW QUESTIONS – README
 
 
+
 DAY 01:- SQL QUESTIONS
+
 
 What is SQL?
 1.What is the difference between WHERE and HAVING?
@@ -11,6 +13,7 @@ What is SQL?
 3.What is the difference between INNER JOIN and LEFT JOIN?
 
 4.What is GROUP BY used for?
+
 
 
 DAY 02:- SQL QUESTIONS
@@ -26,6 +29,7 @@ DAY 02:- SQL QUESTIONS
 9.What is a Foreign Key?
 
 
+
 DAY 03:- SQL QUESTIONS
 
 10.What is a SQL JOIN?
@@ -37,6 +41,7 @@ DAY 03:- SQL QUESTIONS
 13.What is the difference between CHAR and VARCHAR?
 
 14.What is DISTINCT in SQL?
+
 
 
 DAY 04:- SQL QUESTIONS
@@ -52,6 +57,7 @@ DAY 04:- SQL QUESTIONS
 19.What is the difference between IN and EXISTS?
 
 
+
 DAY 05:- SQL QUESTIONS
 
 20.What is a SQL constraint?
@@ -63,6 +69,7 @@ DAY 05:- SQL QUESTIONS
 23.What is the CASE statement in SQL?
 
 24.What is a correlated subquery?
+
 
 
 DAY 06:- SQL QUESTIONS
@@ -78,6 +85,7 @@ DAY 06:- SQL QUESTIONS
 29.What is the difference between COMMIT and ROLLBACK?
 
 
+
 DAY 07:- SQL QUESTIONS
 
 30.What is a Stored Procedure in SQL?
@@ -89,6 +97,7 @@ DAY 07:- SQL QUESTIONS
 33.What is the difference between RANK() and DENSE_RANK()?
 
 34.What is a CTE in SQL?
+
 
 
 DAY 08:- SQL QUESTIONS
