@@ -118,6 +118,6 @@ DAY 08:- SQL QUESTIONS
 
 42.What is the NOT NULL constraint in SQL?
 
-What is the ORDER BY clause used for in SQL?
+43.What is the ORDER BY clause used for in SQL?
 
-What is normalization in SQL?
+44.What is normalization in SQL?
