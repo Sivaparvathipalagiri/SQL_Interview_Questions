@@ -3,56 +3,68 @@ SQL INTERVIEW QUESTIONS – README
 DAY 01:- SQL QUESTIONS
 
 What is SQL?
-What is the difference between WHERE and HAVING?
-What is a Primary Key?
-What is the difference between INNER JOIN and LEFT JOIN?
-What is GROUP BY used for?
+1.What is the difference between WHERE and HAVING?
+2.What is a Primary Key?
+3.What is the difference between INNER JOIN and LEFT JOIN?
+4.What is GROUP BY used for?
+
 DAY 02:- SQL QUESTIONS
 
-What is a UNIQUE constraint in SQL?
-What is the difference between DELETE, TRUNCATE, and DROP?
-What is a NULL value in SQL?
-What is an aggregate function in SQL?
-What is a Foreign Key?
+5.What is a UNIQUE constraint in SQL?
+6.What is the difference between DELETE, TRUNCATE, and DROP?
+7.What is a NULL value in SQL?
+8.What is an aggregate function in SQL?
+9.What is a Foreign Key?
+
 DAY 03:- SQL QUESTIONS
 
-What is a SQL JOIN?
-What is the difference between a Primary Key and a UNIQUE Key?
-What is Normalization in SQL?
-What is the difference between CHAR and VARCHAR?
-What is DISTINCT in SQL?
+10.What is a SQL JOIN?
+11.What is the difference between a Primary Key and a UNIQUE Key?
+12.What is Normalization in SQL?
+13.What is the difference between CHAR and VARCHAR?
+14.What is DISTINCT in SQL?
+
 DAY 04:- SQL QUESTIONS
 
-What is the offset clause in SQL?
-What is a Self Join?
-What is a View in SQL?
-What is a Composite Key?
-What is the difference between IN and EXISTS?
+15.What is the offset clause in SQL?
+16.What is a Self Join?
+17.What is a View in SQL?
+18.What is a Composite Key?
+19.What is the difference between IN and EXISTS?
+
 DAY 05:- SQL QUESTIONS
 
-What is a SQL constraint?
-What is the CHECK constraint in SQL?
-What is the LIMIT clause in SQL?
-What is the CASE statement in SQL?
-What is a correlated subquery?
+20.What is a SQL constraint?
+21.What is the CHECK constraint in SQL?
+22.What is the LIMIT clause in SQL?
+23.What is the CASE statement in SQL?
+24.What is a correlated subquery?
+
 DAY 06:- SQL QUESTIONS
 
-What is an Alias in SQL?
-What is the difference between a database and a table?
-What is a CROSS JOIN?
-What is a transaction in SQL?
-What is the difference between COMMIT and ROLLBACK?
+25.What is an Alias in SQL?
+26.What is the difference between a database and a table?
+27.What is a CROSS JOIN?
+28.What is a transaction in SQL?
+29.What is the difference between COMMIT and ROLLBACK?
+
 DAY 07:- SQL QUESTIONS
 
-What is a Stored Procedure in SQL?
-What is a Trigger in SQL?
-What is a Window Function in SQL?
-What is the difference between RANK() and DENSE_RANK()?
-What is a CTE in SQL?
-DAY 08:- SQL QUESTIONS
+30.What is a Stored Procedure in SQL?
+31.What is a Trigger in SQL?
+32.What is a Window Function in SQL?
+33.What is the difference between RANK() and DENSE_RANK()?
+34.What is a CTE in SQL?
 
-What is the difference between UNION and UNION ALL in SQL?
-What is a Subquery in SQL?
-What is the NOT NULL constraint in SQL?
+DAY 08:- SQL QUESTIONS
+35.What is the difference between UNION and UNION ALL in SQL?
+36.What is a Subquery in SQL?
+37.What is the NOT NULL constraint in SQL?
+38.What is the ORDER BY clause used for in SQL?
+39.What is normalization in SQL?
+40.What is the difference between UNION and UNION ALL in SQL?
+41.What is a Subquery in SQL?
+42.What is the NOT NULL constraint in SQL?
+
 What is the ORDER BY clause used for in SQL?
 What is normalization in SQL?
