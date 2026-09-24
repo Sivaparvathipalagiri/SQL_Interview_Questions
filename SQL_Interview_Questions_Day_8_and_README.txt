@@ -1,4 +1,4 @@
-DAY 8
+SQL Interview Questions – DAY 8
 
 36. What is the difference between UNION and UNION ALL in SQL?
 
