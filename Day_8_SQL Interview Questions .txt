@@ -53,14 +53,22 @@ FROM employees
 ORDER BY salary DESC;
 
 
-40. What is normalization in SQL?
-
+40. What is the difference between Primary Key and Foreign Key in SQL?
 Answer:
-Normalization is the process of organizing data in database tables to reduce data redundancy and improve data consistency. It usually involves dividing large tables into smaller related tables.
+A primary key uniquely identifies each record in a table and cannot contain NULL or duplicate values. A foreign key is used to establish a relationship between two tables by referring to the primary key of another table. Unlike a primary key, a foreign key can contain duplicate values and may contain NULL values.
 
 Example:
-Instead of storing department details repeatedly in an Employees table, we can create a separate Departments table and connect it using a department_id.
+CREATE TABLE Department (
+    Dept_ID INT PRIMARY KEY,
+    Dept_Name VARCHAR(50)
+);
 
+CREATE TABLE Student (
+    Student_ID INT PRIMARY KEY,
+    Student_Name VARCHAR(50),
+    Dept_ID INT,
+    FOREIGN KEY (Dept_ID) REFERENCES Department(Dept_ID)
+);
 
 
 
