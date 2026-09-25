@@ -1,6 +1,6 @@
 SQL Interview Questions – Day 5
 
-16. What is a SQL constraint?
+21. What is a SQL constraint?
 
 Simple Answer
 A constraint is a rule applied to a column or table to control the type of data that can be stored. Common constraints include PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, and DEFAULT.
@@ -13,7 +13,7 @@ CREATE TABLE employees (
 );
 
 
-17. What is the CHECK constraint in SQL?
+22. What is the CHECK constraint in SQL?
 
 Simple Answer
 The CHECK constraint makes sure that values inserted into a column satisfy a specified condition. If the condition is false, the database rejects the value.
@@ -25,7 +25,7 @@ CREATE TABLE employees (
 );
 
 
-18. What is the LIMIT clause in SQL?
+23. What is the LIMIT clause in SQL?
 
 Simple Answer
 LIMIT is used to restrict the number of rows returned by a query. It is commonly used when we want to retrieve only the first few records.
@@ -36,7 +36,7 @@ FROM employees
 LIMIT 5;
 
 
-19. What is the CASE statement in SQL?
+24. What is the CASE statement in SQL?
 
 Simple Answer
 The CASE statement is used to apply conditional logic in SQL. It works similar to if-else logic and returns a value based on a condition.
@@ -52,7 +52,7 @@ SELECT name,
 FROM employees;
 
 
-20. What is a correlated subquery?
+25. What is a correlated subquery?
 
 Simple Answer
 A correlated subquery is a subquery that depends on a value from the outer query. The inner query is evaluated in relation to each row processed by the outer query.
