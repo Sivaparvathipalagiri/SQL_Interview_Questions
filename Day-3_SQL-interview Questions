@@ -1,0 +1,23 @@
+11. What is a SQL JOIN? 
+Interview Answer: A JOIN combines rows from two or more tables based on a related column or condition.
+Common joins include INNER, LEFT, RIGHT, FULL OUTER, CROSS, and SELF JOIN. 
+Example: SELECT e.name, d.name FROM employees e JOIN departments d ON e.department_id = d.id;
+
+12. What is the difference between a Primary Key and a UNIQUE Key? 
+Interview Answer: Both enforce uniqueness, but a table has one primary key, while it can have multiple UNIQUE constraints.
+A primary key cannot contain NULL; NULL behavior for UNIQUE constraints depends on the database. 
+Example: employee_id can be PRIMARY KEY, while email can be UNIQUE. 
+
+13. What is Normalization in SQL?
+Interview Answer: Normalization is the process of organizing data into related tables to reduce unnecessary duplication and improve data consistency. 
+Common normal forms include 1NF, 2NF, and 3NF.
+ Example: Store department details in a separate Departments table instead of repeating department information for every employee.
+
+14. What is the difference between CHAR and VARCHAR?
+Interview Answer: CHAR is fixed-length character data, while VARCHAR is variable-length character data. 
+CHAR can be useful for consistently sized values; VARCHAR is generally better for varying-length text.
+Example: CHAR(10) reserves fixed-length character storage; VARCHAR(10) stores variable-length text up to the declared limit.
+
+15. What is DISTINCT in SQL? 
+Interview Answer: DISTINCT removes duplicate rows from the selected result set. 
+Example: SELECT DISTINCT department FROM employees;
