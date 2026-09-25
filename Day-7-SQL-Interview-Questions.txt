@@ -1,6 +1,6 @@
 SQL Interview Questions – Day 7
 
-26. What is a Stored Procedure in SQL?
+31. What is a Stored Procedure in SQL?
 
 Simple Answer
 A Stored Procedure is a set of SQL statements stored in the database that can be executed whenever needed. It is useful for reusing commonly performed database operations.
@@ -12,7 +12,7 @@ BEGIN
 END;
 
 
-27. What is a Trigger in SQL?
+32. What is a Trigger in SQL?
 
 Simple Answer
 A Trigger is a database object that automatically executes when a specified event occurs on a table, such as INSERT, UPDATE, or DELETE.
@@ -24,7 +24,7 @@ FOR EACH ROW
 SET NEW.created_at = CURRENT_TIMESTAMP;
 
 
-28. What is a Window Function in SQL?
+33. What is a Window Function in SQL?
 
 Simple Answer
 A Window Function performs a calculation across related rows without combining them into a single row. Common examples include ROW_NUMBER(), RANK(), and DENSE_RANK().
@@ -36,7 +36,7 @@ SELECT name,
 FROM employees;
 
 
-29. What is the difference between RANK() and DENSE_RANK()?
+34. What is the difference between RANK() and DENSE_RANK()?
 
 Simple Answer
 Both functions assign ranks to rows based on their values. RANK() leaves gaps after tied values, while DENSE_RANK() does not leave gaps.
@@ -49,7 +49,7 @@ SELECT name,
 FROM employees;
 
 
-30. What is a CTE in SQL?
+35. What is a CTE in SQL?
 
 Simple Answer
 CTE stands for Common Table Expression. It is a temporary named result set created using the WITH keyword. It makes complex queries easier to read and organize.
