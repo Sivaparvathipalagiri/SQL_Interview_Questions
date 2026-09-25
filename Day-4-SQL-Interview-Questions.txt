@@ -1,70 +1,25 @@
 SQL Interview Questions – Day 4
 
-11. What is an Index in SQL?
+16. What is the OFFSET clause in SQL? 
+Interview Answer: OFFSET skips a specified number of rows in a query result, commonly used for pagination. 
+Syntax and whether it requires ORDER BY depend on the database. 
+Example: SELECT * FROM employees ORDER BY employee_id OFFSET 10 ROWS; 
 
-Simple Answer
-An Index is a database object that helps SQL find and retrieve rows faster. It improves read/query performance, but indexes can require extra storage and may slow down INSERT, UPDATE, and DELETE operations.
+17. What is a Self Join? 
+Interview Answer: A Self Join joins a table to itself. It is useful when rows in the same table have relationships,
+such as employees and their managers.
+Example: SELECT e.name, m.name AS manager FROM employees e LEFT JOIN employees m ON e.manager_id = m.employee_id; 
 
-Example
-CREATE INDEX idx_employee_name
-ON employees(name);
+18. What is a View in SQL?
+Interview Answer: A View is a virtual table defined by a SQL query. 
+It stores the query definition rather than normally storing a separate copy of the result data. 
+Example: CREATE VIEW high_salary AS SELECT * FROM employees WHERE salary > 50000;
 
+19. What is a Composite Key?
+Interview Answer: A Composite Key is a key made from two or more columns that together uniquely identify a row.
+ Example: PRIMARY KEY (student_id, course_id).
 
-12. What is a Self Join?
-
-Simple Answer
-A Self Join is a join where a table is joined with itself. It is useful when rows in the same table have a relationship with each other, such as employees and their managers.
-
-Example
-SELECT e.name AS employee, m.name AS manager
-FROM employees e
-LEFT JOIN employees m
-ON e.manager_id = m.employee_id;
-
-
-13. What is a View in SQL?
-
-Simple Answer
-A View is a virtual table created from the result of a SQL query. It can simplify complex queries and control which data users can access.
-
-Example
-CREATE VIEW employee_details AS
-SELECT name, department, salary
-FROM employees;
-
-
-14. What is a Composite Key?
-
-Simple Answer
-A Composite Key is a key made up of two or more columns that together uniquely identify a row in a table. It is useful when a single column cannot uniquely identify a record.
-
-Example
-CREATE TABLE enrollment (
-    student_id INT,
-    course_id INT,
-    PRIMARY KEY (student_id, course_id)
-);
-
-
-15. What is the difference between IN and EXISTS?
-
-Simple Answer
-IN checks whether a value matches any value returned by a subquery or a specified list. EXISTS checks whether the subquery returns at least one row.
-
-Example
-SELECT name
-FROM employees
-WHERE department_id IN (
-    SELECT department_id
-    FROM departments
-    WHERE location = 'Hyderabad'
-);
-
-EXISTS example:
-SELECT name
-FROM employees e
-WHERE EXISTS (
-    SELECT 1
-    FROM departments d
-    WHERE d.department_id = e.department_id
-);
+20. What is the difference between IN and EXISTS? 
+Interview Answer: IN compares a value with a list or subquery result. EXISTS checks whether the subquery returns at least one row. 
+EXISTS is often useful for correlated checks and can behave differently depending on indexes, optimizer, and data. 
+Example: WHERE department_id IN (SELECT id FROM departments); / WHERE EXISTS (SELECT 1 FROM departments d WHERE d.id = e.department_id);
